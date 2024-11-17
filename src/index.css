@@ -1,0 +1,11 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add custom global styles */
+body {
+  font-family: 'Arial', sans-serif;
+}
+/* Leaflet styles */
+@import url('https://unpkg.com/leaflet@1.7.1/dist/leaflet.css');
